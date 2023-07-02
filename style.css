@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #392f5a;
+  color: #eec8e0;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0rem;
+  user-select: none;
+}
+
+#title {
+  font-size: 10vh;
+  line-height: calc(10vh * 1.2);
+  letter-spacing: -0.1vh;
+  font-weight: 600;
+}
+
+#comeback {
+  font-size: 6vh;
+  line-height: calc(6vh * 1.2);
+  font-weight: 400;
+}
+
+.highlight {
+  color: #a8c7bb;
+}
+
+#time {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14vh;
+  line-height: calc(14vh * 1.2);
+  letter-spacing: -1vh;
+  font-weight: 600;
+}
