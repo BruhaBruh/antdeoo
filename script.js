@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     let result = "";
     if (days > 0) {
-      result = `${day[1].value} ${day[2].value} `;
+      result = `${day[1].value}${day[2].value} `;
     }
 
     result += hour[1].value.padStart(2, "0") + ":";
